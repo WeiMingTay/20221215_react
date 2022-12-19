@@ -1,0 +1,16 @@
+.showText {
+  text-align: center;
+  width: 100%;
+  height: 20vh;
+  background-color: #fff;
+}
+.showText div button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 0 10px 1px lightgray;
+  margin: 1rem 0;
+}
+.showText div p {
+  font-size: 2rem;
+}/*# sourceMappingURL=ShowText.css.map */

@@ -1,0 +1,39 @@
+$darkText: #fff;
+$darkBackground: darkslategray;
+$darkShadow: darkslategray;
+
+$lightText: #000;
+$lightBackground: #fff;
+$lightShadow: lightgray;
+
+.dark {
+	background-color: $darkBackground;
+	color: $darkText;
+	box-shadow: 0 0 10px 1px $darkShadow;
+}
+.light {
+	background-color: $lightBackground;
+	color: $lightText;
+}
+.darkmode {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+    transition: all 500ms;
+    display: flex;
+    flex-direction: column;
+
+	button {
+		padding: .5rem 2rem;
+		background-color: transparent;
+		color: inherit;
+		border: none;
+		border-radius: 1rem;
+		box-shadow: 0 0 10px 1px $lightShadow;
+		font-family: inherit;
+        font-size: .75rem;
+        margin-top: .5rem;
+	}
+}

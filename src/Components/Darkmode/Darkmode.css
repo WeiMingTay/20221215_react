@@ -1,0 +1,32 @@
+.dark {
+  background-color: darkslategray;
+  color: #fff;
+  box-shadow: 0 0 10px 1px darkslategray;
+}
+
+.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.darkmode {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  transition: all 500ms;
+  display: flex;
+  flex-direction: column;
+}
+.darkmode button {
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 1px lightgray;
+  font-family: inherit;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}/*# sourceMappingURL=Darkmode.css.map */

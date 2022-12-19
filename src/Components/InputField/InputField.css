@@ -1,0 +1,24 @@
+.inputField {
+  width: 100%;
+  accent-color: darkslategray;
+  background-color: #fff;
+}
+.inputField .inputs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.inputField .inputs input {
+  width: 100%;
+}
+.inputField .inputAusgabe {
+  margin: 0 1rem;
+}
+.inputField .inputAusgabe div {
+  display: flex;
+  justify-content: space-between;
+}
+.inputField .inputAusgabe div p:last-of-type {
+  font-weight: 600;
+}/*# sourceMappingURL=InputField.css.map */

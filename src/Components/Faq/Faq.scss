@@ -1,0 +1,72 @@
+$borderRadius: 10px;
+.faq {
+	width: 100%;
+	background-color: #fff;
+	height: 20vh;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	> div {
+		color: #000;
+		width: 70%;
+		padding: 0.5rem;
+
+		p {
+			padding: 0.5rem;
+		}
+		> div {
+			
+			background-color: rgba(lightgray, 0.5);
+			padding: 0 2rem;
+			display: flex;
+		}
+		> div:first-of-type {
+			justify-content: space-between;
+			align-items: center;
+			border-radius: $borderRadius $borderRadius 0 0;
+
+			button {
+				width: 20px;
+				height: 20px;
+				font-size: 1.2rem;
+
+				box-shadow: 0 0 10px 1px lightgray;
+				border: none;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				&:hover,
+				&:focus {
+					scale: 1.2;
+				}
+			}
+		}
+		> div:last-of-type {
+			justify-content: flex-start;
+            border-radius: 0 0 $borderRadius $borderRadius;
+
+			p {
+				font-size: 0.8rem;
+			}
+		}
+	}
+}
+.hidden {
+	visibility: hidden;
+}
+.show {
+	display: flex;
+	position: relative;
+	&::before {
+		content: "";
+
+		position: absolute;
+		width: calc(90% - 4rem);
+		border-top: 2px solid #fff;
+		margin: 0 5%;
+	}
+}

@@ -1,0 +1,28 @@
+.counter {
+	text-align: center;
+	width: 100%;
+	background-color: #fff;
+
+
+	div {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 2rem;
+		margin: 0 3rem;
+
+		button {
+			$button: 2rem;
+			width: $button;
+			height: $button;
+			background-color: transparent;
+			border: none;
+			box-shadow: 0 0 10px 1px lightgray;
+			cursor: pointer;
+		}
+		p {
+			font-size: 1.5rem;
+			
+		}
+	}
+}

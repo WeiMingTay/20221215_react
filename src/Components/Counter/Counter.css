@@ -1,0 +1,23 @@
+.counter {
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+}
+.counter div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 3rem;
+}
+.counter div button {
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 0 10px 1px lightgray;
+  cursor: pointer;
+}
+.counter div p {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=Counter.css.map */
